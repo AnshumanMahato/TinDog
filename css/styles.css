@@ -1,0 +1,217 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-header {
+  font-size: 1.43rem;
+  font-weight: bold;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Title section */
+
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Download Buttons */
+.down {
+  margin: 5% 3% 5% 0;
+  font-size: 1.2rem
+}
+
+/* Title image */
+.phone {
+  width: 57%;
+  transform: rotate(25deg);
+  /* translate(-1rem,-1.5rem); */
+  position: absolute;
+  top: -7%;
+  left: 10%;
+}
+
+/* Features Section */
+.feature {
+  padding: 1.5rem;
+}
+
+.icon {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 6.25rem;
+}
+
+.pricing-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+/* CTA and Footer Section */
+#cta {
+  color: #fff;
+  background-color: #ff4c68;
+  padding: 7% 20%;
+}
+
+#footer {
+  font-size: 0.8rem;
+  padding: 7% 15% 3%;
+  background-color: #fff;
+}
+
+.foot-icon {
+  margin: 2% 1%;
+}
+
+@media ( max-width: 900px ) {
+
+  #title .container-fluid {
+    padding: 3% 7% 7%;
+    text-align: center;
+  }
+
+  /* Download Buttons */
+  .down {
+    margin: 15% 1%;
+    font-size: 1rem
+  }
+
+  /* Title image */
+  .phone {
+    
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  .big-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .testimonial-image {
+    width: 15%;
+    margin: 1rem
+  }
+
+  .container-fluid {
+    padding: 10% 7% ;
+  }
+
+  #press {
+
+    padding-bottom: 3%;
+  }
+
+  .press-image {
+    width: 20%;
+    margin: 1%;
+  }
+
+  #pricing {
+    padding: 10%;
+  }
+
+  .pricing-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .price-col {
+    padding: 5% 3%;
+  }
+
+  #cta {
+    padding: 7%;
+  }
+
+
+}
